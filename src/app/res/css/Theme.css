@@ -1,0 +1,185 @@
+.background {
+    -fx-background-color: #1d1d1d;
+}
+
+.label {
+    -fx-font-size: 11.0pt;
+    -fx-font-family: "Segoe UI Semibold";
+    -fx-text-fill: black;
+    -fx-opacity: 0.6;
+}
+
+.label-bright {
+    -fx-font-size: 30.0pt;
+    -fx-font-family: "Century Gothic, sans-serif";
+    -fx-text-fill: white;
+    -fx-opacity: 1.0;
+}
+
+.label-header {
+    -fx-font-size: 32.0pt;
+    -fx-font-family: "Segoe UI Light";
+    -fx-text-fill: white;
+    -fx-opacity: 1.0;
+}
+
+.label-Station {
+    -fx-font-size: 25.0pt;
+    -fx-font-family: "Segoe UI Light";
+}
+
+.label-StationSmaller {
+    -fx-font-size: 15.0pt;
+    -fx-font-family: "Segoe UI Light";
+}
+
+#stationNameLabel {
+    -fx-font-weight: bold;
+}
+
+.table-view {
+    -fx-base: #1d1d1d;
+    -fx-control-inner-background: #1d1d1d;
+    -fx-background-color: #1d1d1d;
+    -fx-padding: 5.0;
+}
+
+.table-view .column-headecode optimizationsr-background {
+    -fx-background-color: transparent;
+}
+
+.table-view .column-header, .table-view .filler {
+    -fx-size: 35.0;
+    -fx-border-width: 0.0 0.0 1.0 0.0;
+    -fx-background-color: transparent;
+    -fx-border-color: transparent transparent derive(-fx-base, 80.0%) transparent;
+    -fx-border-insets: 0.0 10.0 1.0 0.0;
+}
+
+.table-view .column-header .label {
+    -fx-font-size: 20.0pt;
+    -fx-font-family: "Segoe UI Light";
+    -fx-text-fill: white;
+    -fx-alignment: center-left;
+    -fx-opacity: 1.0;
+}
+
+.table-view:focused .table-row-cell:filled:focused:selected {
+    -fx-background-color: -fx-focus-color;
+}
+
+.split-pane:horizontal > .split-pane-divider {
+    -fx-border-color: transparent #1d1d1d transparent #1d1d1d;
+    -fx-background-color: transparent, derive(#1d1d1d, 20.0%);
+}
+
+.split-pane {
+    -fx-padding: 1.0 0.0 0.0 0.0;
+}
+
+.menu-bar {
+    -fx-background-color: derive(#1d1d1d, 20.0%);
+}
+
+.context-menu {
+    -fx-background-color: derive(#1d1d1d, 50.0%);
+}
+
+.menu-bar .label {
+    -fx-font-size: 14.0pt;
+    -fx-font-family: "Segoe UI Light";
+    -fx-text-fill: white;
+    -fx-opacity: 0.9;
+}
+
+.menu .left-container {
+    -fx-background-color: black;
+}
+
+.text-field {
+
+    -fx-text-fill: white;
+    -fx-font-size: 12.0pt;
+    -fx-font-family: "Segoe UI Semibold";
+}
+
+.jfx-hamburger-icon {
+    -fx-cursor: hand;
+
+    -fx-background-color: derive(#000000, 20.0%);
+}
+
+.jfx-hamburger-icon StackPane {
+
+    -fx-background-color: rgb(77, 102, 204);
+    -fx-background-radius: 5px;
+}
+
+.button-raised {
+    -fx-padding: 0.7em 0.57em;
+    -fx-font-size: 14px;
+    -fx-button-type: RAISED;
+    -fx-background-color: rgb(77, 102, 204);
+    -fx-pref-width: 200;
+    -fx-text-fill: WHITE;
+}
+
+.button-raised {
+    -fx-padding: 0.7em 0.57em;
+    -fx-font-size: 14px;
+    -fx-button-type: RAISED;
+    -fx-background-color: rgb(77, 102, 204);
+    -fx-pref-width: 200;
+    -fx-text-fill: WHITE;
+}
+
+.red {
+    -fx-background-color: #b71c1c;
+}
+
+.orange {
+    -fx-background-color: #b78000;
+}
+
+.blue {
+    -fx-background-color: rgb(77, 102, 204);
+}
+
+.green {
+    -fx-background-color: #1b5e20;
+}
+
+.jfx-spinner > .arc {
+    -fx-stroke-width: 3.0;
+    -fx-fill: transparent;
+    -fx-stroke: #010cd6;
+}
+
+.jfx-slider {
+    -fx-stroke-width: 3.0;
+    -fx-fill: transparent;
+    -fx-stroke: #010cd6;
+    -fx-text-fill: white;
+}
+
+.jfx-spinner {
+    -fx-radius: 20px;
+}
+
+.clockTimer {
+    -fx-font-size: 60px;
+    -fx-font-family: "Segoe UI Semibold";
+    -fx-text-fill: white;
+    -fx-opacity: 1.0;
+
+}
+
+#schedule {
+    -fx-background-color: white;
+    -fx-border-color: black;
+}
+
+#mapPane {
+    -fx-background-image: url('../icon/fond.png');
+    -fx-background-size: cover;
+}

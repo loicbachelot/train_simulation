@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.*?>
+<AnchorPane xmlns:fx="http://javafx.com/fxml/1" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308"
+            prefHeight="400.0" prefWidth="386.0" styleClass="background" stylesheets="@../css/Theme.css"
+            xmlns="http://javafx.com/javafx/8.0.111" fx:controller="app.MenuController">
+    <BorderPane layoutX="10.0" layoutY="10.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308"
+                minHeight="-Infinity" minWidth="-Infinity" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0"
+                AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+        <center>
+            <GridPane prefHeight="219.0" prefWidth="386.0" BorderPane.alignment="CENTER">
+                <columnConstraints>
+                    <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0"/>
+                </columnConstraints>
+                <rowConstraints>
+                    <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES"/>
+                    <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES"/>
+                    <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES"/>
+                    <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES"/>
+                </rowConstraints>
+                <BorderPane prefHeight="151.0" prefWidth="386.0">
+                    <center>
+                        <Label alignment="CENTER" contentDisplay="CENTER" graphicTextGap="5.0" styleClass="label-bright"
+                               text="welcome to B'OnTime" textAlignment="CENTER" textOverrun="WORD_ELLIPSIS"
+                               wrapText="true" BorderPane.alignment="CENTER"/>
+                    </center>
+                </BorderPane>
+                <BorderPane prefHeight="200.0" prefWidth="200.0" GridPane.rowIndex="1">
+                    <center>
+                        <JFXButton fx:id="launchButton" onAction="#mapAction" ripplerFill="#02D6C4"
+                                   styleClass="button-raised" text="Launch the simulation" textFill="WHITE"
+                                   BorderPane.alignment="CENTER"/>
+                    </center>
+                </BorderPane>
+                <BorderPane prefHeight="200.0" prefWidth="200.0" GridPane.rowIndex="3">
+                    <center>
+
+                    </center>
+                </BorderPane>
+                <BorderPane prefHeight="200.0" prefWidth="200.0" GridPane.rowIndex="2">
+                    <center>
+                        <StackPane fx:id="imgPane" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308"
+                                   prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER"/>
+                    </center>
+                </BorderPane>
+            </GridPane>
+        </center>
+    </BorderPane>
+</AnchorPane>
